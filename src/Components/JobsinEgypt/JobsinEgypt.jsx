@@ -45,7 +45,7 @@ export default function JobsinEgypt() {
             </div>
         </Link>
 
-        <div className={`rowShadow row border-1 border rounded-5 p-4 justify-content-between my-5 ${isScreenSmall ? " mx-3" : "p"}`}>
+        <div className={`rowShadow row border-1 border rounded-5 py-4 justify-content-between ${isScreenSmall ? " mx-3 my-3" : "px-4 mx-5 my-3"}`}>
             <div className="col-md-4">
         
            <h5 className="textMain">HR Administrative Assistant</h5>
@@ -70,7 +70,7 @@ export default function JobsinEgypt() {
             </div>
         </div>
 
-        <div className={`rowShadow row border-1 border rounded-5 py-4 justify-content-between px-4 ${isScreenSmall ? " mx-3" : "px-4 mx-5"}`}>
+        <div className={`rowShadow row border-1 border rounded-5 py-4 justify-content-between ${isScreenSmall ? " mx-3" : "px-4 mx-5"}`}>
             <div className="col-md-4">
         
            <h5 className="textMain">HR Administrative Assistant</h5>

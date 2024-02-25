@@ -23,7 +23,7 @@ export default function CompleteApplication() {
               <div className={`${isScreenSmall ? "w-100" : "w-50"}`}>
                 <p style={{color:'#6CDB39'}}>Your profile ranks highly among other applicants</p>
                <p className="textLightGray">What makes you the ideal candidate for this position?</p>
-              <textarea rows="10" cols={`${isScreenSmall ? "30" : "100"}`} className={`rowShadow border border-1 rounded-5 py-2 px-4`} style={{color:'#D9D9D9' , resize:'vertical'}}>
+              <textarea rows="5" cols={`${isScreenSmall ? "30" : "100"}`} className={`rowShadow border border-1 rounded-5 py-2 px-4`} style={{color:'#D9D9D9' , resize:'vertical'}}>
               I believe that my ability to connect with people and my outgoing personality sets me apart from others. I am able to engage with people and make sure that they understand what I am saying. Additionally, I am always willing to answer any questions that people may have.
                 </textarea>
                 <button className={`rowShadow btn bgMain textwhite rounded-5 my-3`}>Submit Application</button>

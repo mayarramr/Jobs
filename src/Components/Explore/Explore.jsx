@@ -40,7 +40,7 @@ export default function Explore() {
             </div>
         </Link>
 
-        <div className={`rowShadow row border-1 border rounded-5 py-4 justify-content-between text-decoration-none text-black ${isScreenSmall ? "mx-2 my-4 px-2" : " px-4 mx-5"}`}>
+        <div className={`rowShadow row border-1 border rounded-5 py-4 justify-content-between text-decoration-none text-black my-4 ${isScreenSmall ? "mx-2 px-2" : " px-4 mx-5"}`}>
             <div className="col-md-4">
         
            <h5 className="textMain">HR Administrative Assistant</h5>

@@ -15,7 +15,7 @@ export default function Saved() {
                 <link rel="canonical" href="http://mysite.com/example" />
             </Helmet>
      <div className="container py-5 mt-5">
-        <Link to={'/hr-administrative-assistant'} className={`rowShadow row border-1 border rounded-5 py-4 justify-content-between  text-decoration-none text-black ${isScreenSmall ? "mx-2 px-2" : " px-4 mx-5"}`}>
+        <Link to={'/complete-application'} className={`rowShadow row border-1 border rounded-5 py-4 justify-content-between  text-decoration-none text-black ${isScreenSmall ? "mx-2 px-2" : " px-4 mx-5"}`}>
             <div className="col-md-6">
         
            <h5 className="textMain">HR Administrative Assistant</h5>
