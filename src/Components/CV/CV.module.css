@@ -1,0 +1,12 @@
+.searchInput{
+    outline: none;
+    border: 1px #ccc solid;
+    box-shadow: 0px 3px 3px #ccc ;
+    height: 55px;
+}
+.searchInput::placeholder{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    white-space: normal;
+}
